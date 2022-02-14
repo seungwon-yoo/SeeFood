@@ -13,6 +13,7 @@
 		E35EDF5627BA76C9009CF075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35EDF5427BA76C9009CF075 /* Main.storyboard */; };
 		E35EDF5827BA76CB009CF075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35EDF5727BA76CB009CF075 /* Assets.xcassets */; };
 		E35EDF5B27BA76CB009CF075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35EDF5927BA76CB009CF075 /* LaunchScreen.storyboard */; };
+		E35EDF6327BA777C009CF075 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E35EDF6227BA777C009CF075 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E35EDF5727BA76CB009CF075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E35EDF5A27BA76CB009CF075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35EDF5C27BA76CB009CF075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35EDF6227BA777C009CF075 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E35EDF5727BA76CB009CF075 /* Assets.xcassets */,
 				E35EDF5927BA76CB009CF075 /* LaunchScreen.storyboard */,
 				E35EDF5C27BA76CB009CF075 /* Info.plist */,
+				E35EDF6227BA777C009CF075 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E35EDF5327BA76C9009CF075 /* ViewController.swift in Sources */,
+				E35EDF6327BA777C009CF075 /* Inceptionv3.mlmodel in Sources */,
 				E35EDF4F27BA76C9009CF075 /* AppDelegate.swift in Sources */,
 				E35EDF5127BA76C9009CF075 /* SceneDelegate.swift in Sources */,
 			);
